@@ -1,0 +1,25 @@
+//Tiago Alves de Souza
+
+{% extends "appdtblb/base.html" %}
+
+{% block content %}
+    <!-- d-flex e alinhamentos centrais substituem o CSS inline antigo -->
+    <div class="d-flex justify-content-center align-items-center text-center vh-100">
+        <div style="max-width: 600px;">
+            
+            <h1>Bem-vindo</h1>
+            
+            <!-- text-secondary substitui a cor cinza manual -->
+            <p class="text-secondary mt-3">
+                Esta é uma página simples feita com o framework Django, renderizada com
+                o motor de templates Django Templates Language (DTL) e com o framework
+                responsivo Bootstrap através de um arquivo externo via CDN.
+            </p>
+            
+            <a href="#" class="btn btn-primary mt-3">
+                COMEÇAR
+            </a>
+
+        </div>
+    </div>
+{% endblock %}
